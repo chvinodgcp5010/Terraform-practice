@@ -1,7 +1,5 @@
 #https://www.terraform.io/language/values/variables
 
-#https://www.terraform.io/language/values/variables
-
 variable "instance_type-vnd" {
   description = "type of EC2 instance to provision."
   default     = "t2.micro"
