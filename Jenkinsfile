@@ -5,13 +5,13 @@ pipeline {
   stages {
     stage('Terraform Init') {
       steps {
-        sh "terraform init"
+        sh "terraform init -no-color"
       }
     }
     
     stage('Terraform Plan') {
       steps {
-        sh "terraform plan -out=tfplan"
+        sh "terraform plan -out=tfplan -no-color"
     }
    }
   }
