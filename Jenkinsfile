@@ -1,4 +1,4 @@
-#https://medium.com/@pb8226/running-terraform-with-jenkins-pipelines-f29a8cb861d4
+//https://medium.com/@pb8226/running-terraform-with-jenkins-pipelines-f29a8cb861d4
   
 pipeline {
   agent any
