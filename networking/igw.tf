@@ -5,5 +5,4 @@ resource "aws_internet_gateway" "gw" {
     Name = var.igw-name
   }
 }
-Footer
-© 2022 GitHub
+
