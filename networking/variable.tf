@@ -22,12 +22,12 @@ variable "vpc-name" {
 
 variable "subnet1-name" {
   description = "name to pass to Name tag"
-  default     = "terraform-ec2-subnet1"
+  default     = "terraform-ec2-subnet1-public"
 }
 
 variable "subnet2-name" {
   description = "name to pass to Name tag"
-  default     = "terraform-ec2-subnet2"
+  default     = "terraform-ec2-subnet2-private"
 }
 
 variable "nic-name" {
