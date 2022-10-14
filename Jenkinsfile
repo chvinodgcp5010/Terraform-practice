@@ -7,3 +7,4 @@ pipeline {
         sh "terraform init -input=false"
       }
  }
+  }
