@@ -1,3 +1,5 @@
+#https://medium.com/@pb8226/running-terraform-with-jenkins-pipelines-f29a8cb861d4
+  
 pipeline {
   agent any
   stages {
@@ -9,7 +11,7 @@ pipeline {
     
     stage('Terraform Plan') {
       steps {
-        sh "terraform plan"
+        sh "terraform plan -out=tfplan"
     }
    }
   }
