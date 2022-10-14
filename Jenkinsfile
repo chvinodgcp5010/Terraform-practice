@@ -14,7 +14,7 @@ pipeline {
     stage('Terraform Plan') {
       steps {
         //sh "terraform plan -out=tfplan -no-color"
-        sh label: '', script: 'terraform plan'
+        sh label: '', script: 'terraform plan -no-color'
     }
    }
 
