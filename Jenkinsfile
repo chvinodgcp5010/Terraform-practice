@@ -1,5 +1,5 @@
 //https://medium.com/@pb8226/running-terraform-with-jenkins-pipelines-f29a8cb861d4
-  
+//https://gist.github.com/fortunecookiezen/b3bc3214a07a14529608857d078b32dd
 pipeline {
   agent any
   stages {
@@ -19,7 +19,7 @@ pipeline {
 
     stage('Terraform Apply') {
       steps {
-        sh "terraform apply -no-color"
+        sh "terraform apply -no-color -auto-approve"
     }
    }
   }
