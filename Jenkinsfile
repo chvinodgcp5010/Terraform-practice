@@ -17,4 +17,3 @@ withCredentials([string(credentialsId: 'AWS_ACCESS_KEY_ID', variable: 'AWS_ACCES
     }
    }
   }
-}
