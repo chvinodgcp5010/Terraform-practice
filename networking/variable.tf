@@ -20,9 +20,14 @@ variable "vpc-name" {
   default     = "terraform-ec2-vpc"
 }
 
-variable "subnet-name" {
+variable "subnet1-name" {
   description = "name to pass to Name tag"
-  default     = "terraform-ec2-subnet"
+  default     = "terraform-ec2-subnet1"
+}
+
+variable "subnet2-name" {
+  description = "name to pass to Name tag"
+  default     = "terraform-ec2-subnet2"
 }
 
 variable "nic-name" {
