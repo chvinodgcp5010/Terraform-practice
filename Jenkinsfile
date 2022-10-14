@@ -16,5 +16,11 @@ pipeline {
         sh "terraform plan -out=tfplan -no-color"
     }
    }
+
+    stage('Terraform Apply') {
+      steps {
+        sh "terraform apply -out=tfplan -no-color"
+    }
+   }
   }
 }
